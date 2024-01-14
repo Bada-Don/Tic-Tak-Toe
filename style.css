@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Background_upscayl_4x_realesrgan-x4plus.png');
+    /* Specify background properties */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    
+    /* Add additional styling if needed */
+    margin: 0; /* Remove default margin */
+    height: 90vh; /* Set the height to the full viewport height */
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    /* appearance: none; */
+}
+#heading1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 6rem;
+    text-align: center;
+
+    width: 100%;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#heading2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+}
+.grid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 2rem;
+
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 10rem 10rem 10rem;
+    grid-template-rows: 10rem 10rem 10rem;
+}
+.box{
+    width: 10rem;
+}
+
+@media only screen and (max-width: 650px) {
+    #heading1{
+        font-size: 4rem !important;
+    }
+    .box{
+        width: 5rem
+    }
+    button{
+        width: 5rem;
+        height: 5rem;
+    }
+    .grid{
+        display: flex;
+        justify-content: center;
+    
+        margin-top: 4rem;
+
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: 5rem 5rem 5rem;
+        grid-template-rows: 5rem 5rem 5rem;
+    }
+    body {
+        background-image: url('Background_upscayl_4x_realesrgan-x4plus\ -\ Copy.png');
+    }
+  }
