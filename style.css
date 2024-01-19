@@ -32,13 +32,13 @@ body {
     margin-top: 2rem;
     font-size: 6rem;
     text-align: center;
-    color: black;
+    color: black !important;
     width: 100%;
     
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #heading2 {
-    color: black;
+    color: black !important;
     display: flex;
     justify-content: center;
     font-size: 2rem;
