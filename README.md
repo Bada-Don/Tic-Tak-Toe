@@ -22,3 +22,10 @@ This is a simple yet engaging Tic Tac Toe game developed by Harshit Singla. Chal
 [https://harshittictaktoe.netlify.app/](https://harshittictaktoe.netlify.app/)
 
 Feel free to reach out for any feedback or suggestions. Happy gaming! 🕹️
+
+## Screenshots
+
+![image](https://github.com/Bada-Don/Tic-Tak-Toe/assets/93757887/9f479b8d-8829-40b2-af3e-f9d8e81396d6)
+
+![image](https://github.com/Bada-Don/Tic-Tak-Toe/assets/93757887/51e83cf0-d080-40d9-aea1-10ab9fa60e61)
+
