@@ -9,13 +9,21 @@ body {
     
     /* Add additional styling if needed */
     margin: 0; /* Remove default margin */
-    height: 90vh; /* Set the height to the full viewport height */
+    /* height: 90vh; /* Set the height to the full viewport height */
 }
-button{
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.grid button{
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5rem;
+    width: 9rem;
+    height: 9rem;
     /* appearance: none; */
 }
 #heading1 {
@@ -36,20 +44,57 @@ button{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 100%;
 }
+.result{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.resetBtn button{  
+    width: 15rem;
+    height: 4rem;
+    margin-bottom: 12rem;
+    background-color: #0a5caf;
+    border-radius: 2rem;
+    font-size: 2rem;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border:0.2rem solid transparent;
+    box-shadow: 0.45rem 0.45rem 0.45rem #242424;
+    transition: all 0.3s;
+    
+}
+.resetBtn button:hover{
+    border:0.2rem solid whitesmoke;
+    scale: 1.1;
+
+}  
+.result h1{
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    color: #0c5db0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 6rem;
+}
+.hide{
+    display: none;
+}
 .grid{
     width: 100%;
     display: flex;
     justify-content: center;
 
-    margin-top: 2rem;
+    margin-top: 1rem;
 
     display: grid;
-    gap: 1.5rem;
+    gap: 1rem;
     grid-template-columns: 10rem 10rem 10rem;
     grid-template-rows: 10rem 10rem 10rem;
 }
 .box{
-    width: 10rem;
+    width: 9rem;
 }
 
 @media only screen and (max-width: 650px) {
@@ -59,7 +104,7 @@ button{
     .box{
         width: 5rem
     }
-    button{
+    .grid button{
         width: 5rem;
         height: 5rem;
     }
@@ -73,6 +118,9 @@ button{
         gap: 1.5rem;
         grid-template-columns: 5rem 5rem 5rem;
         grid-template-rows: 5rem 5rem 5rem;
+    }
+    .result h1{
+        text-align: center;
     }
     body {
         background-image: url('Background_upscayl_4x_realesrgan-x4plus\ -\ Copy.png');
